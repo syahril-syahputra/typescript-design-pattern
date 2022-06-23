@@ -45,9 +45,9 @@ class Music implements IMusic{
 
 
   constructor(
-    judul: string, 
-    penyanti: string, 
-    harga: number, 
+    judul: string,
+    penyanti: string,
+    harga: number,
     tglRelease: Date
 ) {
     this.judul = judul
@@ -59,5 +59,7 @@ class Music implements IMusic{
 
 
 
-    
+
 }
+
+export default Music

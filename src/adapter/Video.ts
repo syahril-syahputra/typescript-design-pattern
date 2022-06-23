@@ -46,9 +46,9 @@ class Video implements IVideo{
 
 
   constructor(
-    judul: string, 
-    artis: string, 
-    tglRelease: Date, 
+    judul: string,
+    artis: string,
+    tglRelease: Date,
     harga: number
 ) {
     this.judul = judul
@@ -59,3 +59,5 @@ class Video implements IVideo{
 
 
 }
+
+export default  Video
